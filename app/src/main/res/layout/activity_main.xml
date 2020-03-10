@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/setFoodName"
-        android:layout_width="188dp"
-        android:layout_height="30dp"
+        android:layout_width="189dp"
+        android:layout_height="40dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
@@ -25,20 +25,20 @@
     <Button
         android:id="@+id/calcCaloriesBtn"
         android:layout_width="42dp"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
-        android:text="@string/set_food_button"
         android:onClick="calculateCalories"
+        android:text="@string/set_food_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/setWeight"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/setWeight"
-        android:layout_width="113dp"
-        android:layout_height="30dp"
+        android:layout_width="119dp"
+        android:layout_height="40dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="10dp"
@@ -254,5 +254,34 @@
             </TextView>
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/testTextView"
+        android:layout_width="251dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="450dp"
+        android:onClick="requesting"
+        android:text="Test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
