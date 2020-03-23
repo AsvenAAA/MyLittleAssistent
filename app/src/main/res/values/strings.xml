@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyLittleAssistent</string>
     <string name="set_food_button">Go!</string>
-    <string name="standart_button_height">30</string>
+    <string name="standard_button_height">30</string>
     <string name="nameOfFood">Product</string>
     <string name="calories">Calories</string>
     <string name="weightOfFood">Weight</string>
