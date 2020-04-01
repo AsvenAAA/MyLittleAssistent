@@ -1,18 +1,5 @@
-package com.example.mylittleassistent.core
-import android.content.Context
-import android.view.View
-import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
-import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.toolbox.JsonObjectRequest
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
+package com.example.mylittleassistent.model.remoterep
 import com.example.mylittleassistent.presenter.IDataChange
-import kotlinx.coroutines.*
-import org.json.JSONArray
-import org.json.JSONObject
-import javax.net.ssl.HttpsURLConnection
 
 
 class Downloader(): IHttpCore, IDataChange{

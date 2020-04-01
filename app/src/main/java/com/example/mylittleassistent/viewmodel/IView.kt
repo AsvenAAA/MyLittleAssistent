@@ -1,4 +1,4 @@
-package com.example.mylittleassistent
+package com.example.mylittleassistent.viewmodel
 
 import android.widget.TextView
 import org.json.JSONObject
